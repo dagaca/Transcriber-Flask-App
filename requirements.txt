@@ -1,0 +1,8 @@
+# python==3.10.14
+Flask==2.2.5
+Werkzeug==2.2.3
+python-docx==1.1.0
+SpeechRecognition==3.8.1
+moviepy==1.0.3
+flasgger==0.9.7.1
+ffmpeg==7.0.1

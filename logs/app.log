@@ -1,0 +1,750 @@
+2024-07-21 15:50:59,299 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 15:50:59,300 - app - INFO - Request Method: POST
+2024-07-21 15:50:59,312 - app - INFO - Request Data: b''
+2024-07-21 15:50:59,312 - app - INFO - Starting file upload process.
+2024-07-21 15:50:59,313 - app - INFO - Cleaned up old files in the transcripts folder.
+2024-07-21 15:50:59,316 - app - INFO - Saved uploaded file to /Users/serapkoc/Desktop/transcriber/temp/9ed20652-dfe3-42bd-bfd7-1bb4501868bb.mp4.
+2024-07-21 15:51:10,812 - app - INFO - Saved transcription document to /Users/serapkoc/Desktop/transcriber/temp/transcripts/26c019be-6351-45f8-8049-e5ebe161bfb2.docx.
+2024-07-21 15:51:10,812 - app - INFO - Removed uploaded video file: /Users/serapkoc/Desktop/transcriber/temp/9ed20652-dfe3-42bd-bfd7-1bb4501868bb.mp4.
+2024-07-21 15:51:10,813 - app - INFO - Response Status: 302 FOUND
+2024-07-21 15:51:10,813 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 15:51:10,817 - app - INFO - Request URL: http://127.0.0.1:8082/success/26c019be-6351-45f8-8049-e5ebe161bfb2.docx
+2024-07-21 15:51:10,817 - app - INFO - Request Method: GET
+2024-07-21 15:51:10,818 - app - INFO - Request Data: b''
+2024-07-21 15:51:10,818 - app - INFO - Rendering success page for file: 26c019be-6351-45f8-8049-e5ebe161bfb2.docx.
+2024-07-21 15:51:10,823 - app - INFO - Response Status: 200 OK
+2024-07-21 15:51:10,824 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 15:51:10,839 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 15:51:10,841 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 15:51:10,841 - app - INFO - Request Method: GET
+2024-07-21 15:51:10,842 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 15:51:10,842 - app - INFO - Request Method: GET
+2024-07-21 15:51:10,843 - app - INFO - Request Data: b''
+2024-07-21 15:51:10,843 - app - INFO - Request Method: GET
+2024-07-21 15:51:10,843 - app - INFO - Request Data: b''
+2024-07-21 15:51:10,844 - app - INFO - Request Data: b''
+2024-07-21 15:51:10,854 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 15:51:10,855 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 15:51:10,855 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 15:51:10,856 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 15:51:10,856 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 15:51:10,857 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 15:51:23,810 - app - INFO - Request URL: http://127.0.0.1:8082/download/26c019be-6351-45f8-8049-e5ebe161bfb2.docx
+2024-07-21 15:51:23,810 - app - INFO - Request Method: GET
+2024-07-21 15:51:23,811 - app - INFO - Request Data: b''
+2024-07-21 15:51:23,814 - app - INFO - Removed file: 26c019be-6351-45f8-8049-e5ebe161bfb2.docx after download.
+2024-07-21 15:51:23,814 - app - INFO - Response Status: 200 OK
+2024-07-21 15:51:23,815 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:01:55,882 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:01:55,884 - app - INFO - Request Method: POST
+2024-07-21 16:01:55,900 - app - INFO - Request Data: b''
+2024-07-21 16:01:55,901 - app - INFO - Starting file upload process.
+2024-07-21 16:01:55,908 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:03:46,828 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:03:46,830 - app - INFO - Request Method: POST
+2024-07-21 16:03:46,846 - app - INFO - Request Data: b''
+2024-07-21 16:03:46,847 - app - INFO - Starting file upload process.
+2024-07-21 16:03:46,848 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:11:02,483 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:11:02,484 - app - INFO - Request Method: POST
+2024-07-21 16:11:02,497 - app - INFO - Request Data: b''
+2024-07-21 16:11:02,499 - app - INFO - Starting file upload process.
+2024-07-21 16:11:02,500 - app - INFO - Ensured transcripts folder exists.
+2024-07-21 16:11:02,501 - app - INFO - Cleaned up old files in the transcripts folder.
+2024-07-21 16:11:02,503 - app - INFO - Saved uploaded file to ../temp/484a9ac3-966c-493e-ac98-e24e26748a6b.mp4.
+2024-07-21 16:11:13,106 - app - INFO - Saved transcription document to ../temp/transcripts/8bf5aadc-4209-4f39-984b-a0ea0873f62f.docx.
+2024-07-21 16:11:13,106 - app - INFO - Removed uploaded video file: ../temp/484a9ac3-966c-493e-ac98-e24e26748a6b.mp4.
+2024-07-21 16:11:13,107 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:11:13,108 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:11:13,112 - app - INFO - Request URL: http://127.0.0.1:8082/success/8bf5aadc-4209-4f39-984b-a0ea0873f62f.docx
+2024-07-21 16:11:13,113 - app - INFO - Request Method: GET
+2024-07-21 16:11:13,114 - app - INFO - Request Data: b''
+2024-07-21 16:11:13,114 - app - INFO - Rendering success page for file: 8bf5aadc-4209-4f39-984b-a0ea0873f62f.docx.
+2024-07-21 16:11:13,120 - app - INFO - Response Status: 200 OK
+2024-07-21 16:11:13,120 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:11:13,135 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:11:13,136 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:11:13,137 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:11:13,137 - app - INFO - Request Method: GET
+2024-07-21 16:11:13,138 - app - INFO - Request Method: GET
+2024-07-21 16:11:13,138 - app - INFO - Request Method: GET
+2024-07-21 16:11:13,138 - app - INFO - Request Data: b''
+2024-07-21 16:11:13,138 - app - INFO - Request Data: b''
+2024-07-21 16:11:13,139 - app - INFO - Request Data: b''
+2024-07-21 16:11:13,149 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:11:13,149 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:11:13,150 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:11:13,150 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:11:13,151 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:11:13,152 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:12:50,810 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:12:50,811 - app - INFO - Request Method: POST
+2024-07-21 16:12:50,820 - app - INFO - Request Data: b''
+2024-07-21 16:12:50,820 - app - INFO - Starting file upload process.
+2024-07-21 16:12:50,821 - app - INFO - Ensured transcripts folder exists.
+2024-07-21 16:12:50,822 - app - INFO - Cleaned up old files in the transcripts folder.
+2024-07-21 16:12:50,826 - app - INFO - Saved uploaded file to /Users/serapkoc/Desktop/temp/53201b14-8538-47f3-8626-93e5004d4d39.mp4.
+2024-07-21 16:13:07,594 - app - INFO - Saved transcription document to /Users/serapkoc/Desktop/temp/transcripts/d687d687-10c4-4a03-a602-0615bc8abffe.docx.
+2024-07-21 16:13:07,595 - app - INFO - Removed uploaded video file: /Users/serapkoc/Desktop/temp/53201b14-8538-47f3-8626-93e5004d4d39.mp4.
+2024-07-21 16:13:07,595 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:13:07,596 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:13:07,602 - app - INFO - Request URL: http://127.0.0.1:8082/success/d687d687-10c4-4a03-a602-0615bc8abffe.docx
+2024-07-21 16:13:07,602 - app - INFO - Request Method: GET
+2024-07-21 16:13:07,603 - app - INFO - Request Data: b''
+2024-07-21 16:13:07,603 - app - INFO - Rendering success page for file: d687d687-10c4-4a03-a602-0615bc8abffe.docx.
+2024-07-21 16:13:07,608 - app - INFO - Response Status: 200 OK
+2024-07-21 16:13:07,609 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:13:07,621 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:13:07,622 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:13:07,622 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:13:07,623 - app - INFO - Request Method: GET
+2024-07-21 16:13:07,623 - app - INFO - Request Method: GET
+2024-07-21 16:13:07,623 - app - INFO - Request Method: GET
+2024-07-21 16:13:07,623 - app - INFO - Request Data: b''
+2024-07-21 16:13:07,623 - app - INFO - Request Data: b''
+2024-07-21 16:13:07,623 - app - INFO - Request Data: b''
+2024-07-21 16:13:07,631 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:13:07,631 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:13:07,632 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:13:07,632 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:13:07,633 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:13:07,633 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:15:28,516 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:15:28,517 - app - INFO - Request Method: POST
+2024-07-21 16:15:28,527 - app - INFO - Request Data: b''
+2024-07-21 16:15:28,529 - app - INFO - Starting file upload process.
+2024-07-21 16:15:28,530 - app - INFO - Ensured transcripts folder exists.
+2024-07-21 16:15:28,531 - app - INFO - Cleaned up old files in the transcripts folder.
+2024-07-21 16:15:28,533 - app - INFO - Saved uploaded file to /Users/serapkoc/Desktop/temp/b776e79f-91b3-401a-b390-b20d6f7a6f56.mp4.
+2024-07-21 16:15:37,923 - app - INFO - Saved transcription document to /Users/serapkoc/Desktop/temp/transcripts/dfbcbffb-30cd-4aa9-b005-2cdf43367228.docx.
+2024-07-21 16:15:37,924 - app - INFO - Removed uploaded video file: /Users/serapkoc/Desktop/temp/b776e79f-91b3-401a-b390-b20d6f7a6f56.mp4.
+2024-07-21 16:15:37,925 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:15:37,926 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:15:37,932 - app - INFO - Request URL: http://127.0.0.1:8082/success/dfbcbffb-30cd-4aa9-b005-2cdf43367228.docx
+2024-07-21 16:15:37,933 - app - INFO - Request Method: GET
+2024-07-21 16:15:37,934 - app - INFO - Request Data: b''
+2024-07-21 16:15:37,934 - app - INFO - Rendering success page for file: dfbcbffb-30cd-4aa9-b005-2cdf43367228.docx.
+2024-07-21 16:15:37,941 - app - INFO - Response Status: 200 OK
+2024-07-21 16:15:37,942 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:15:37,958 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:15:37,959 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:15:37,959 - app - INFO - Request Method: GET
+2024-07-21 16:15:37,960 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:15:37,960 - app - INFO - Request Method: GET
+2024-07-21 16:15:37,960 - app - INFO - Request Method: GET
+2024-07-21 16:15:37,960 - app - INFO - Request Data: b''
+2024-07-21 16:15:37,960 - app - INFO - Request Data: b''
+2024-07-21 16:15:37,961 - app - INFO - Request Data: b''
+2024-07-21 16:15:37,968 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:15:37,969 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:15:37,971 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:15:37,972 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:15:37,972 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:15:37,973 - app - INFO - Completed cleanup of temporary files.
+2024-07-21 16:16:10,082 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:16:10,084 - app - INFO - Request Method: POST
+2024-07-21 16:16:10,095 - app - INFO - Request Data: b''
+2024-07-21 16:16:10,096 - app - INFO - Starting file upload process.
+2024-07-21 16:17:44,464 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:17:44,465 - app - INFO - Request Method: POST
+2024-07-21 16:17:44,484 - app - INFO - Request Data: b''
+2024-07-21 16:17:44,485 - app - INFO - Starting file upload process.
+2024-07-21 16:17:46,740 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:17:46,740 - app - INFO - Request Method: POST
+2024-07-21 16:17:46,752 - app - INFO - Request Data: b''
+2024-07-21 16:17:46,755 - app - INFO - Starting file upload process.
+2024-07-21 16:17:48,558 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:17:48,559 - app - INFO - Request Method: GET
+2024-07-21 16:17:48,561 - app - INFO - Request Data: b''
+2024-07-21 16:17:48,561 - app - INFO - Rendering index page.
+2024-07-21 16:17:48,574 - app - INFO - Response Status: 200 OK
+2024-07-21 16:17:51,912 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:17:51,914 - app - INFO - Request Method: GET
+2024-07-21 16:17:51,914 - app - INFO - Request Data: b''
+2024-07-21 16:17:51,915 - app - INFO - Rendering index page.
+2024-07-21 16:17:51,915 - app - INFO - Response Status: 200 OK
+2024-07-21 16:17:53,716 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:17:53,717 - app - INFO - Request Method: GET
+2024-07-21 16:17:53,717 - app - INFO - Request Data: b''
+2024-07-21 16:17:53,717 - app - INFO - Rendering index page.
+2024-07-21 16:17:53,718 - app - INFO - Response Status: 200 OK
+2024-07-21 16:17:56,076 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:17:56,077 - app - INFO - Request Method: GET
+2024-07-21 16:17:56,078 - app - INFO - Request Data: b''
+2024-07-21 16:17:56,078 - app - INFO - Rendering index page.
+2024-07-21 16:17:56,079 - app - INFO - Response Status: 200 OK
+2024-07-21 16:17:57,924 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:17:57,925 - app - INFO - Request Method: GET
+2024-07-21 16:17:57,926 - app - INFO - Request Data: b''
+2024-07-21 16:17:57,926 - app - INFO - Rendering index page.
+2024-07-21 16:17:57,927 - app - INFO - Response Status: 200 OK
+2024-07-21 16:17:58,970 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:17:58,972 - app - INFO - Request Method: GET
+2024-07-21 16:17:58,973 - app - INFO - Request Data: b''
+2024-07-21 16:17:58,973 - app - INFO - Rendering index page.
+2024-07-21 16:17:58,974 - app - INFO - Response Status: 200 OK
+2024-07-21 16:18:13,492 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:18:13,494 - app - INFO - Request Method: GET
+2024-07-21 16:18:13,495 - app - INFO - Request Data: b''
+2024-07-21 16:18:13,496 - app - INFO - Rendering index page.
+2024-07-21 16:18:13,513 - app - INFO - Response Status: 200 OK
+2024-07-21 16:18:16,781 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:18:16,783 - app - INFO - Request Method: GET
+2024-07-21 16:18:16,783 - app - INFO - Request Data: b''
+2024-07-21 16:18:16,785 - app - INFO - Rendering index page.
+2024-07-21 16:18:16,785 - app - INFO - Response Status: 200 OK
+2024-07-21 16:18:19,117 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:18:19,118 - app - INFO - Request Method: GET
+2024-07-21 16:18:19,118 - app - INFO - Request Data: b''
+2024-07-21 16:18:19,118 - app - INFO - Rendering index page.
+2024-07-21 16:18:19,118 - app - INFO - Response Status: 200 OK
+2024-07-21 16:19:36,670 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:19:36,672 - app - INFO - Request Method: GET
+2024-07-21 16:19:36,673 - app - INFO - Request Data: b''
+2024-07-21 16:19:36,688 - app - INFO - Response Status: 200 OK
+2024-07-21 16:19:36,704 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:19:36,704 - app - INFO - Request Method: GET
+2024-07-21 16:19:36,704 - app - INFO - Request Data: b''
+2024-07-21 16:19:36,709 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:19:36,709 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:19:36,710 - app - INFO - Request Method: GET
+2024-07-21 16:19:36,710 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:19:36,711 - app - INFO - Request Data: b''
+2024-07-21 16:19:36,711 - app - INFO - Request Method: GET
+2024-07-21 16:19:36,712 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:19:36,712 - app - INFO - Request Data: b''
+2024-07-21 16:19:36,713 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:19:46,675 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:19:46,675 - app - INFO - Request Method: POST
+2024-07-21 16:19:46,686 - app - INFO - Request Data: b''
+2024-07-21 16:19:59,347 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:19:59,357 - app - INFO - Request URL: http://127.0.0.1:8082/success/b8ad87d3-aa43-446b-bdd0-6870534bd1be.docx
+2024-07-21 16:19:59,358 - app - INFO - Request Method: GET
+2024-07-21 16:19:59,358 - app - INFO - Request Data: b''
+2024-07-21 16:19:59,362 - app - INFO - Response Status: 200 OK
+2024-07-21 16:19:59,377 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:19:59,377 - app - INFO - Request Method: GET
+2024-07-21 16:19:59,378 - app - INFO - Request Data: b''
+2024-07-21 16:19:59,378 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:19:59,381 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:19:59,382 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:19:59,382 - app - INFO - Request Method: GET
+2024-07-21 16:19:59,383 - app - INFO - Request Method: GET
+2024-07-21 16:19:59,383 - app - INFO - Request Data: b''
+2024-07-21 16:19:59,383 - app - INFO - Request Data: b''
+2024-07-21 16:19:59,384 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:19:59,385 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:24:25,874 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:24:25,875 - app - INFO - Request Method: POST
+2024-07-21 16:24:25,890 - app - INFO - Request Data: b''
+2024-07-21 16:24:36,262 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:24:36,270 - app - INFO - Request URL: http://127.0.0.1:8082/success/11d99e84-809f-40f2-a9fb-70a7834c8bf5.docx
+2024-07-21 16:24:36,271 - app - INFO - Request Method: GET
+2024-07-21 16:24:36,272 - app - INFO - Request Data: b''
+2024-07-21 16:24:36,278 - app - INFO - Response Status: 200 OK
+2024-07-21 16:24:36,296 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:24:36,297 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:24:36,298 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:24:36,298 - app - INFO - Request Method: GET
+2024-07-21 16:24:36,299 - app - INFO - Request Method: GET
+2024-07-21 16:24:36,299 - app - INFO - Request Method: GET
+2024-07-21 16:24:36,299 - app - INFO - Request Data: b''
+2024-07-21 16:24:36,300 - app - INFO - Request Data: b''
+2024-07-21 16:24:36,300 - app - INFO - Request Data: b''
+2024-07-21 16:24:36,308 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:24:36,310 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:24:36,311 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:24:43,008 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:24:43,008 - app - INFO - Request Method: POST
+2024-07-21 16:24:43,009 - app - INFO - Request Data: b''
+2024-07-21 16:25:22,349 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:25:22,350 - app - INFO - Request Method: POST
+2024-07-21 16:25:22,355 - app - INFO - Request Data: b''
+2024-07-21 16:31:38,174 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:31:38,175 - app - INFO - Request Method: POST
+2024-07-21 16:31:38,177 - app - INFO - Request Data: b''
+2024-07-21 16:31:38,192 - app - INFO - Response Status: 200 OK
+2024-07-21 16:31:38,207 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:31:38,208 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:31:38,208 - app - INFO - Request Method: GET
+2024-07-21 16:31:38,209 - app - INFO - Request Method: GET
+2024-07-21 16:31:38,210 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:31:38,210 - app - INFO - Request Method: GET
+2024-07-21 16:31:38,211 - app - INFO - Request Data: b''
+2024-07-21 16:31:38,211 - app - INFO - Request Data: b''
+2024-07-21 16:31:38,211 - app - INFO - Request Data: b''
+2024-07-21 16:31:38,220 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:38,221 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:38,221 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:47,065 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:31:47,067 - app - INFO - Request Method: GET
+2024-07-21 16:31:47,067 - app - INFO - Request Data: b''
+2024-07-21 16:31:47,077 - app - INFO - Response Status: 200 OK
+2024-07-21 16:31:47,093 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:31:47,095 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:31:47,096 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:31:47,096 - app - INFO - Request Method: GET
+2024-07-21 16:31:47,097 - app - INFO - Request Method: GET
+2024-07-21 16:31:47,097 - app - INFO - Request Method: GET
+2024-07-21 16:31:47,097 - app - INFO - Request Data: b''
+2024-07-21 16:31:47,097 - app - INFO - Request Data: b''
+2024-07-21 16:31:47,097 - app - INFO - Request Data: b''
+2024-07-21 16:31:47,098 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:47,098 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:47,099 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:56,388 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:31:56,388 - app - INFO - Request Method: POST
+2024-07-21 16:31:56,438 - app - INFO - Request Data: b''
+2024-07-21 16:31:56,439 - app - INFO - Response Status: 200 OK
+2024-07-21 16:31:56,448 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:31:56,448 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:31:56,449 - app - INFO - Request Method: GET
+2024-07-21 16:31:56,449 - app - INFO - Request Method: GET
+2024-07-21 16:31:56,449 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:31:56,450 - app - INFO - Request Data: b''
+2024-07-21 16:31:56,450 - app - INFO - Request Data: b''
+2024-07-21 16:31:56,450 - app - INFO - Request Method: GET
+2024-07-21 16:31:56,450 - app - INFO - Request Data: b''
+2024-07-21 16:31:56,451 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:56,451 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:56,451 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:57,533 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:31:57,535 - app - INFO - Request Method: GET
+2024-07-21 16:31:57,535 - app - INFO - Request Data: b''
+2024-07-21 16:31:57,537 - app - INFO - Response Status: 200 OK
+2024-07-21 16:31:57,551 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:31:57,557 - app - INFO - Request Method: GET
+2024-07-21 16:31:57,557 - app - INFO - Request Data: b''
+2024-07-21 16:31:57,560 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:57,553 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:31:57,563 - app - INFO - Request Method: GET
+2024-07-21 16:31:57,563 - app - INFO - Request Data: b''
+2024-07-21 16:31:57,564 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:31:57,555 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:31:57,565 - app - INFO - Request Method: GET
+2024-07-21 16:31:57,566 - app - INFO - Request Data: b''
+2024-07-21 16:31:57,566 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:32:07,933 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:32:07,937 - app - INFO - Request Method: POST
+2024-07-21 16:32:07,946 - app - INFO - Request Data: b''
+2024-07-21 16:32:21,886 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:32:21,892 - app - INFO - Request URL: http://127.0.0.1:8082/success/10bd4d85-4c66-4c6d-af7f-de0f4011383d.docx
+2024-07-21 16:32:21,892 - app - INFO - Request Method: GET
+2024-07-21 16:32:21,892 - app - INFO - Request Data: b''
+2024-07-21 16:32:21,896 - app - INFO - Response Status: 200 OK
+2024-07-21 16:32:21,910 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:32:21,911 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:32:21,912 - app - INFO - Request Method: GET
+2024-07-21 16:32:21,913 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:32:21,913 - app - INFO - Request Method: GET
+2024-07-21 16:32:21,913 - app - INFO - Request Data: b''
+2024-07-21 16:32:21,913 - app - INFO - Request Method: GET
+2024-07-21 16:32:21,914 - app - INFO - Request Data: b''
+2024-07-21 16:32:21,914 - app - INFO - Request Data: b''
+2024-07-21 16:32:21,915 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:32:21,915 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:32:21,916 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:32:34,906 - app - INFO - Request URL: http://127.0.0.1:8082/download/10bd4d85-4c66-4c6d-af7f-de0f4011383d.docx
+2024-07-21 16:32:34,908 - app - INFO - Request Method: GET
+2024-07-21 16:32:34,908 - app - INFO - Request Data: b''
+2024-07-21 16:32:34,911 - app - INFO - Response Status: 200 OK
+2024-07-21 16:33:58,538 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:33:58,539 - app - INFO - Request Method: POST
+2024-07-21 16:33:58,553 - app - INFO - Request Data: b''
+2024-07-21 16:34:09,716 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:34:09,723 - app - INFO - Request URL: http://127.0.0.1:8082/success/8b1c961b-8b3f-4393-b9b7-984bb28b4b5f.docx
+2024-07-21 16:34:09,723 - app - INFO - Request Method: GET
+2024-07-21 16:34:09,724 - app - INFO - Request Data: b''
+2024-07-21 16:34:09,730 - app - INFO - Response Status: 200 OK
+2024-07-21 16:34:09,749 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:34:09,750 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:34:09,750 - app - INFO - Request Method: GET
+2024-07-21 16:34:09,750 - app - INFO - Request Method: GET
+2024-07-21 16:34:09,751 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:34:09,751 - app - INFO - Request Data: b''
+2024-07-21 16:34:09,751 - app - INFO - Request Data: b''
+2024-07-21 16:34:09,751 - app - INFO - Request Method: GET
+2024-07-21 16:34:09,754 - app - INFO - Request Data: b''
+2024-07-21 16:34:09,759 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:09,759 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:09,759 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:12,060 - app - INFO - Request URL: http://127.0.0.1:8082/download/8b1c961b-8b3f-4393-b9b7-984bb28b4b5f.docx
+2024-07-21 16:34:12,060 - app - INFO - Request Method: GET
+2024-07-21 16:34:12,061 - app - INFO - Request Data: b''
+2024-07-21 16:34:12,064 - app - INFO - Response Status: 200 OK
+2024-07-21 16:34:56,893 - app - INFO - Request URL: http://127.0.0.1:8082/apidocs/
+2024-07-21 16:34:56,894 - app - INFO - Request Method: GET
+2024-07-21 16:34:56,894 - app - INFO - Request Data: b''
+2024-07-21 16:34:56,922 - app - INFO - Response Status: 200 OK
+2024-07-21 16:34:56,941 - app - INFO - Request URL: http://127.0.0.1:8082/flasgger_static/swagger-ui.css
+2024-07-21 16:34:56,942 - app - INFO - Request URL: http://127.0.0.1:8082/flasgger_static/swagger-ui-standalone-preset.js
+2024-07-21 16:34:56,942 - app - INFO - Request Method: GET
+2024-07-21 16:34:56,942 - app - INFO - Request URL: http://127.0.0.1:8082/flasgger_static/swagger-ui-bundle.js
+2024-07-21 16:34:56,943 - app - INFO - Request URL: http://127.0.0.1:8082/flasgger_static/lib/jquery.min.js
+2024-07-21 16:34:56,943 - app - INFO - Request Method: GET
+2024-07-21 16:34:56,943 - app - INFO - Request Data: b''
+2024-07-21 16:34:56,943 - app - INFO - Request Method: GET
+2024-07-21 16:34:56,944 - app - INFO - Request Method: GET
+2024-07-21 16:34:56,944 - app - INFO - Request Data: b''
+2024-07-21 16:34:56,944 - app - INFO - Request Data: b''
+2024-07-21 16:34:56,945 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:56,945 - app - INFO - Request Data: b''
+2024-07-21 16:34:56,945 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:56,946 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:56,946 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:34:57,020 - app - INFO - Request URL: http://127.0.0.1:8082/apispec_1.json
+2024-07-21 16:34:57,021 - app - INFO - Request Method: GET
+2024-07-21 16:34:57,021 - app - INFO - Request Data: b''
+2024-07-21 16:34:57,035 - app - INFO - Response Status: 200 OK
+2024-07-21 16:37:14,644 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:37:14,646 - app - INFO - Request Method: POST
+2024-07-21 16:37:14,661 - app - INFO - Request Data: b''
+2024-07-21 16:37:21,227 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:37:21,228 - app - INFO - Request Method: POST
+2024-07-21 16:37:21,230 - app - INFO - Request Data: b''
+2024-07-21 16:37:21,246 - app - INFO - Response Status: 200 OK
+2024-07-21 16:37:31,244 - app - INFO - Response Status: 302 FOUND
+2024-07-21 16:37:43,368 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 16:37:43,369 - app - INFO - Request Method: POST
+2024-07-21 16:37:43,372 - app - INFO - Request Data: b''
+2024-07-21 16:37:43,382 - app - INFO - Response Status: 200 OK
+2024-07-21 16:37:43,401 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:37:43,403 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:37:43,404 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:37:43,405 - app - INFO - Request Method: GET
+2024-07-21 16:37:43,405 - app - INFO - Request Method: GET
+2024-07-21 16:37:43,405 - app - INFO - Request Method: GET
+2024-07-21 16:37:43,406 - app - INFO - Request Data: b''
+2024-07-21 16:37:43,406 - app - INFO - Request Data: b''
+2024-07-21 16:37:43,407 - app - INFO - Request Data: b''
+2024-07-21 16:37:43,417 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:37:43,417 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:37:43,417 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:37:44,348 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 16:37:44,348 - app - INFO - Request Method: GET
+2024-07-21 16:37:44,349 - app - INFO - Request Data: b''
+2024-07-21 16:37:44,352 - app - INFO - Response Status: 200 OK
+2024-07-21 16:37:44,360 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 16:37:44,361 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 16:37:44,362 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 16:37:44,362 - app - INFO - Request Method: GET
+2024-07-21 16:37:44,362 - app - INFO - Request Method: GET
+2024-07-21 16:37:44,362 - app - INFO - Request Method: GET
+2024-07-21 16:37:44,363 - app - INFO - Request Data: b''
+2024-07-21 16:37:44,363 - app - INFO - Request Data: b''
+2024-07-21 16:37:44,363 - app - INFO - Request Data: b''
+2024-07-21 16:37:44,364 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:37:44,365 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 16:37:44,365 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:18,156 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:18:18,157 - app - INFO - Request Method: GET
+2024-07-21 18:18:18,160 - app - INFO - Request Data: b''
+2024-07-21 18:18:18,176 - app - INFO - Response Status: 200 OK
+2024-07-21 18:18:18,192 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:18:18,193 - app - INFO - Request Method: GET
+2024-07-21 18:18:18,194 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:18:18,194 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:18:18,195 - app - INFO - Request Data: b''
+2024-07-21 18:18:18,195 - app - INFO - Request Method: GET
+2024-07-21 18:18:18,195 - app - INFO - Request Method: GET
+2024-07-21 18:18:18,196 - app - INFO - Request Data: b''
+2024-07-21 18:18:18,196 - app - INFO - Request Data: b''
+2024-07-21 18:18:18,201 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:18,204 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:18,205 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:23,210 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:18:23,211 - app - INFO - Request Method: POST
+2024-07-21 18:18:23,213 - app - INFO - Request Data: b''
+2024-07-21 18:18:23,221 - app - INFO - Response Status: 200 OK
+2024-07-21 18:18:23,236 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:18:23,238 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:18:23,238 - app - INFO - Request Method: GET
+2024-07-21 18:18:23,239 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:18:23,239 - app - INFO - Request Method: GET
+2024-07-21 18:18:23,239 - app - INFO - Request Data: b''
+2024-07-21 18:18:23,240 - app - INFO - Request Method: GET
+2024-07-21 18:18:23,240 - app - INFO - Request Data: b''
+2024-07-21 18:18:23,240 - app - INFO - Request Data: b''
+2024-07-21 18:18:23,241 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:23,242 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:23,242 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:24,633 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:18:24,634 - app - INFO - Request Method: GET
+2024-07-21 18:18:24,635 - app - INFO - Request Data: b''
+2024-07-21 18:18:24,636 - app - INFO - Response Status: 200 OK
+2024-07-21 18:18:24,651 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:18:24,652 - app - INFO - Request Method: GET
+2024-07-21 18:18:24,653 - app - INFO - Request Data: b''
+2024-07-21 18:18:24,656 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:24,661 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:18:24,662 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:18:24,663 - app - INFO - Request Method: GET
+2024-07-21 18:18:24,663 - app - INFO - Request Method: GET
+2024-07-21 18:18:24,663 - app - INFO - Request Data: b''
+2024-07-21 18:18:24,663 - app - INFO - Request Data: b''
+2024-07-21 18:18:24,664 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:24,665 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:32,744 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:18:32,745 - app - INFO - Request Method: POST
+2024-07-21 18:18:32,756 - app - INFO - Request Data: b''
+2024-07-21 18:18:43,600 - app - INFO - Response Status: 302 FOUND
+2024-07-21 18:18:43,608 - app - INFO - Request URL: http://127.0.0.1:8082/success/deddbd31-d58d-4cdf-a68e-f29b30b10c68.docx
+2024-07-21 18:18:43,608 - app - INFO - Request Method: GET
+2024-07-21 18:18:43,608 - app - INFO - Request Data: b''
+2024-07-21 18:18:43,611 - app - INFO - Response Status: 200 OK
+2024-07-21 18:18:43,628 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:18:43,629 - app - INFO - Request Method: GET
+2024-07-21 18:18:43,629 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:18:43,630 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:18:43,631 - app - INFO - Request Data: b''
+2024-07-21 18:18:43,631 - app - INFO - Request Method: GET
+2024-07-21 18:18:43,631 - app - INFO - Request Method: GET
+2024-07-21 18:18:43,632 - app - INFO - Request Data: b''
+2024-07-21 18:18:43,633 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:43,633 - app - INFO - Request Data: b''
+2024-07-21 18:18:43,634 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:43,635 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:18:54,374 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:18:54,375 - app - INFO - Request Method: POST
+2024-07-21 18:18:54,383 - app - INFO - Request Data: b''
+2024-07-21 18:19:02,957 - app - INFO - Response Status: 302 FOUND
+2024-07-21 18:19:02,966 - app - INFO - Request URL: http://127.0.0.1:8082/success/461c6a41-128e-4751-aae7-82f0554207cf.docx
+2024-07-21 18:19:02,966 - app - INFO - Request Method: GET
+2024-07-21 18:19:02,966 - app - INFO - Request Data: b''
+2024-07-21 18:19:02,967 - app - INFO - Response Status: 200 OK
+2024-07-21 18:19:02,985 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:19:02,986 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:19:02,987 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:19:02,988 - app - INFO - Request Method: GET
+2024-07-21 18:19:02,988 - app - INFO - Request Method: GET
+2024-07-21 18:19:02,988 - app - INFO - Request Method: GET
+2024-07-21 18:19:02,988 - app - INFO - Request Data: b''
+2024-07-21 18:19:02,989 - app - INFO - Request Data: b''
+2024-07-21 18:19:02,989 - app - INFO - Request Data: b''
+2024-07-21 18:19:02,990 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:19:02,991 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:19:02,991 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:27:26,070 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:27:26,070 - app - INFO - Request Method: GET
+2024-07-21 18:27:26,072 - app - INFO - Request Data: b''
+2024-07-21 18:27:26,084 - app - INFO - Response Status: 200 OK
+2024-07-21 18:27:26,090 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:27:26,093 - app - INFO - Request Method: GET
+2024-07-21 18:27:26,093 - app - INFO - Request Data: b''
+2024-07-21 18:27:26,092 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:27:26,091 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:27:26,097 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:27:26,097 - app - INFO - Request Method: GET
+2024-07-21 18:27:26,097 - app - INFO - Request Method: GET
+2024-07-21 18:27:26,098 - app - INFO - Request Data: b''
+2024-07-21 18:27:26,098 - app - INFO - Request Data: b''
+2024-07-21 18:27:26,099 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:27:26,100 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:27:31,780 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:27:31,781 - app - INFO - Request Method: POST
+2024-07-21 18:27:31,783 - app - INFO - Request Data: b''
+2024-07-21 18:27:37,939 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:27:37,940 - app - INFO - Request Method: POST
+2024-07-21 18:27:37,943 - app - INFO - Request Data: b''
+2024-07-21 18:29:45,293 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:29:45,294 - app - INFO - Request Method: POST
+2024-07-21 18:29:45,297 - app - INFO - Request Data: b''
+2024-07-21 18:31:52,703 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:31:52,704 - app - INFO - Request Method: GET
+2024-07-21 18:31:52,708 - app - INFO - Request Data: b''
+2024-07-21 18:31:52,721 - app - INFO - Response Status: 200 OK
+2024-07-21 18:31:52,737 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:31:52,738 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:31:52,739 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:31:52,740 - app - INFO - Request Method: GET
+2024-07-21 18:31:52,740 - app - INFO - Request Method: GET
+2024-07-21 18:31:52,740 - app - INFO - Request Method: GET
+2024-07-21 18:31:52,740 - app - INFO - Request Data: b''
+2024-07-21 18:31:52,741 - app - INFO - Request Data: b''
+2024-07-21 18:31:52,741 - app - INFO - Request Data: b''
+2024-07-21 18:31:52,751 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:31:52,751 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:31:52,751 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:31:55,817 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:31:55,817 - app - INFO - Request Method: POST
+2024-07-21 18:31:55,820 - app - INFO - Request Data: b''
+2024-07-21 18:34:32,249 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:34:32,250 - app - INFO - Request Method: POST
+2024-07-21 18:34:32,254 - app - INFO - Request Data: b''
+2024-07-21 18:34:32,273 - app - INFO - Response Status: 200 OK
+2024-07-21 18:34:32,288 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:34:32,288 - app - INFO - Request Method: GET
+2024-07-21 18:34:32,289 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:34:32,290 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:34:32,291 - app - INFO - Request Method: GET
+2024-07-21 18:34:32,292 - app - INFO - Request Method: GET
+2024-07-21 18:34:32,294 - app - INFO - Request Data: b''
+2024-07-21 18:34:32,294 - app - INFO - Request Data: b''
+2024-07-21 18:34:32,294 - app - INFO - Request Data: b''
+2024-07-21 18:34:32,303 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:34:32,303 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:34:32,304 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:34:33,516 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:34:33,518 - app - INFO - Request Method: GET
+2024-07-21 18:34:33,518 - app - INFO - Request Data: b''
+2024-07-21 18:34:33,529 - app - INFO - Response Status: 200 OK
+2024-07-21 18:34:33,545 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:34:33,547 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:34:33,549 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:34:33,550 - app - INFO - Request Method: GET
+2024-07-21 18:34:33,550 - app - INFO - Request Method: GET
+2024-07-21 18:34:33,550 - app - INFO - Request Method: GET
+2024-07-21 18:34:33,550 - app - INFO - Request Data: b''
+2024-07-21 18:34:33,551 - app - INFO - Request Data: b''
+2024-07-21 18:34:33,551 - app - INFO - Request Data: b''
+2024-07-21 18:34:33,552 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:34:33,553 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:34:33,553 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:34:51,308 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:34:51,309 - app - INFO - Request Method: POST
+2024-07-21 18:34:51,311 - app - INFO - Request Data: b''
+2024-07-21 18:35:03,291 - app - INFO - Response Status: 302 FOUND
+2024-07-21 18:35:03,301 - app - INFO - Request URL: http://127.0.0.1:8082/success/bfa78294-9723-4d23-843c-aa89dbf00451.docx
+2024-07-21 18:35:03,303 - app - INFO - Request Method: GET
+2024-07-21 18:35:03,303 - app - INFO - Request Data: b''
+2024-07-21 18:35:03,307 - app - INFO - Response Status: 200 OK
+2024-07-21 18:35:03,323 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:35:03,324 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:35:03,325 - app - INFO - Request Method: GET
+2024-07-21 18:35:03,325 - app - INFO - Request Method: GET
+2024-07-21 18:35:03,326 - app - INFO - Request Data: b''
+2024-07-21 18:35:03,325 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:35:03,326 - app - INFO - Request Data: b''
+2024-07-21 18:35:03,327 - app - INFO - Request Method: GET
+2024-07-21 18:35:03,327 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:35:03,328 - app - INFO - Request Data: b''
+2024-07-21 18:35:03,328 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:35:03,329 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:35:10,198 - app - INFO - Request URL: http://127.0.0.1:8082/download/bfa78294-9723-4d23-843c-aa89dbf00451.docx
+2024-07-21 18:35:10,199 - app - INFO - Request Method: GET
+2024-07-21 18:35:10,200 - app - INFO - Request Data: b''
+2024-07-21 18:35:10,202 - app - INFO - Response Status: 200 OK
+2024-07-21 18:40:13,814 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:40:13,816 - app - INFO - Request Method: POST
+2024-07-21 18:40:13,825 - app - INFO - Request Data: b''
+2024-07-21 18:40:24,729 - app - INFO - Response Status: 302 FOUND
+2024-07-21 18:40:24,736 - app - INFO - Request URL: http://127.0.0.1:8082/success/98ec40a8-a085-4726-8589-637802488a26.docx
+2024-07-21 18:40:24,736 - app - INFO - Request Method: GET
+2024-07-21 18:40:24,736 - app - INFO - Request Data: b''
+2024-07-21 18:40:24,737 - app - INFO - Response Status: 200 OK
+2024-07-21 18:40:24,753 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:40:24,753 - app - INFO - Request Method: GET
+2024-07-21 18:40:24,754 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:40:24,755 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:40:24,756 - app - INFO - Request Data: b''
+2024-07-21 18:40:24,756 - app - INFO - Request Method: GET
+2024-07-21 18:40:24,756 - app - INFO - Request Method: GET
+2024-07-21 18:40:24,757 - app - INFO - Request Data: b''
+2024-07-21 18:40:24,757 - app - INFO - Request Data: b''
+2024-07-21 18:40:24,758 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:40:24,758 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:40:24,759 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:16,966 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:44:16,966 - app - INFO - Request Method: GET
+2024-07-21 18:44:16,967 - app - INFO - Request Data: b''
+2024-07-21 18:44:16,979 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:16,986 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:44:16,986 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:44:16,986 - app - INFO - Request Method: GET
+2024-07-21 18:44:16,987 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:44:16,987 - app - INFO - Request Method: GET
+2024-07-21 18:44:16,987 - app - INFO - Request Data: b''
+2024-07-21 18:44:16,988 - app - INFO - Request Method: GET
+2024-07-21 18:44:16,988 - app - INFO - Request Data: b''
+2024-07-21 18:44:16,988 - app - INFO - Request Data: b''
+2024-07-21 18:44:16,993 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:16,993 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:16,994 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:21,996 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:44:21,997 - app - INFO - Request Method: POST
+2024-07-21 18:44:22,000 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,007 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:22,022 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:44:22,024 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:44:22,024 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,025 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,026 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,027 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:44:22,027 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,028 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:22,028 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,028 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:22,029 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,030 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:22,864 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:44:22,864 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,865 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,866 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:22,883 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:44:22,885 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,886 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,885 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:44:22,887 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,887 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,887 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:22,890 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:22,893 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:44:22,894 - app - INFO - Request Method: GET
+2024-07-21 18:44:22,894 - app - INFO - Request Data: b''
+2024-07-21 18:44:22,895 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:25,833 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:44:25,834 - app - INFO - Request Method: POST
+2024-07-21 18:44:25,840 - app - INFO - Request Data: b''
+2024-07-21 18:44:25,842 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:25,858 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:44:25,862 - app - INFO - Request Method: GET
+2024-07-21 18:44:25,863 - app - INFO - Request Data: b''
+2024-07-21 18:44:25,860 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:44:25,865 - app - INFO - Request Method: GET
+2024-07-21 18:44:25,864 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:25,865 - app - INFO - Request Data: b''
+2024-07-21 18:44:25,862 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:44:25,870 - app - INFO - Request Method: GET
+2024-07-21 18:44:25,871 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:25,871 - app - INFO - Request Data: b''
+2024-07-21 18:44:25,873 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:30,504 - app - INFO - Request URL: http://127.0.0.1:8082/
+2024-07-21 18:44:30,505 - app - INFO - Request Method: GET
+2024-07-21 18:44:30,506 - app - INFO - Request Data: b''
+2024-07-21 18:44:30,508 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:30,522 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:44:30,525 - app - INFO - Request Method: GET
+2024-07-21 18:44:30,524 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:44:30,526 - app - INFO - Request Method: GET
+2024-07-21 18:44:30,527 - app - INFO - Request Data: b''
+2024-07-21 18:44:30,526 - app - INFO - Request Data: b''
+2024-07-21 18:44:30,529 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:30,528 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:30,525 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:44:30,533 - app - INFO - Request Method: GET
+2024-07-21 18:44:30,534 - app - INFO - Request Data: b''
+2024-07-21 18:44:30,535 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:39,581 - app - INFO - Request URL: http://127.0.0.1:8082/upload
+2024-07-21 18:44:39,582 - app - INFO - Request Method: POST
+2024-07-21 18:44:39,593 - app - INFO - Request Data: b''
+2024-07-21 18:44:52,830 - app - INFO - Response Status: 302 FOUND
+2024-07-21 18:44:52,839 - app - INFO - Request URL: http://127.0.0.1:8082/success/09c6109f-5532-4b4e-9a0e-182e33069b03.docx
+2024-07-21 18:44:52,839 - app - INFO - Request Method: GET
+2024-07-21 18:44:52,840 - app - INFO - Request Data: b''
+2024-07-21 18:44:52,844 - app - INFO - Response Status: 200 OK
+2024-07-21 18:44:52,861 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/bootstrap.min.css
+2024-07-21 18:44:52,862 - app - INFO - Request URL: http://127.0.0.1:8082/static/css/styles.css
+2024-07-21 18:44:52,863 - app - INFO - Request Method: GET
+2024-07-21 18:44:52,864 - app - INFO - Request URL: http://127.0.0.1:8082/static/js/bootstrap.bundle.min.js
+2024-07-21 18:44:52,864 - app - INFO - Request Method: GET
+2024-07-21 18:44:52,865 - app - INFO - Request Data: b''
+2024-07-21 18:44:52,865 - app - INFO - Request Method: GET
+2024-07-21 18:44:52,866 - app - INFO - Request Data: b''
+2024-07-21 18:44:52,866 - app - INFO - Request Data: b''
+2024-07-21 18:44:52,867 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:52,868 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:52,868 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-07-21 18:44:56,960 - app - INFO - Request URL: http://127.0.0.1:8082/download/09c6109f-5532-4b4e-9a0e-182e33069b03.docx
+2024-07-21 18:44:56,962 - app - INFO - Request Method: GET
+2024-07-21 18:44:56,962 - app - INFO - Request Data: b''
+2024-07-21 18:44:56,964 - app - INFO - Response Status: 200 OK

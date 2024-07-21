@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Upload a file to transcribe</h1>
+        <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data" class="mt-4">
+            <div class="mb-3">
+                <label for="file" class="form-label">Select file:</label>
+                <input type="file" class="form-control" name="file" required>
+            </div>
+            <div class="mb-3">
+                <label for="language" class="form-label">Choose a language:</label>
+                <select name="language" id="language" class="form-select" required>
+                    <option value="en">English</option>
+                    <option value="de">German</option>
+                    <option value="tr">Turkish</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Upload</button>
+        </form>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="alert alert-warning mt-4">
+                    {% for message in messages %}
+                        <p>{{ message }}</p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+    </div>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
