@@ -75,7 +75,7 @@ This is a Flask-based web application that allows users to upload video files an
 - `routes.py`: Application routes and request handlers
 
 #### app/config/
-- `config.py`: Configuration settings loaded from .env
+- `app_config.py`: Configuration settings loaded from .env
 - `logging_config.py`: Logging configuration
 
 #### app/utils/
