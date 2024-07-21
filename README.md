@@ -90,13 +90,6 @@ This is a Flask-based web application that allows users to upload video files an
 - `invalid_file.html`: Error page template for invalid file uploads
 
 ### static/css/
-- `bootstrap-grid.css`
-- `bootstrap-grid.min.css`
-- `bootstrap-reboot.css`
-- `bootstrap-reboot.min.css`
-- `bootstrap-utilities.css`
-- `bootstrap-utilities.min.css`
-- `bootstrap.css`
 - `bootstrap.min.css`
 - `styles.css`: Custom styles
 
