@@ -80,7 +80,12 @@ def upload_file():
                   type: string
                   description: Description of the error.
     """
-    transcripts_folder = os.path.join(current_app.config['UPLOAD_FOLDER'], 'transcripts')
+    upload_folder = current_app.config['UPLOAD_FOLDER']
+    transcripts_folder = os.path.join(upload_folder, 'transcripts')
+    
+    # Ensure the upload and transcripts folders exist
+    os.makedirs(transcripts_folder, exist_ok=True)
+    
     remove_old_files(transcripts_folder, max_age_seconds=60)
 
     if 'file' not in request.files or 'language' not in request.form:
@@ -95,7 +100,6 @@ def upload_file():
         return redirect(request.url)
     
     if file and allowed_file(file.filename):
-        upload_folder = current_app.config['UPLOAD_FOLDER']
         if not os.path.exists(upload_folder):
             os.makedirs(upload_folder)
 
@@ -105,7 +109,6 @@ def upload_file():
         transcription = process_video(file_path, language)
         
         unique_filename = f"{uuid.uuid4()}.docx"
-        transcripts_folder = os.path.join(upload_folder, 'transcripts')
         if not os.path.exists(transcripts_folder):
             os.makedirs(transcripts_folder)
         output_path = os.path.join(transcripts_folder, unique_filename)
