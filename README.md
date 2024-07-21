@@ -79,7 +79,7 @@ This is a Flask-based web application that allows users to upload video files an
 - `logging_config.py`: Logging configuration
 
 #### app/utils/
-- `audio_processing.py`: Functions for processing video and extracting audio
+- `media_processing.py`: Functions for processing video and extracting audio
 - `file_handling.py`: Functions for saving and removing files
 - `file_deletion.py`: Function for removing old files
 - `cleanup.py`: Function for cleaning up temporary files
