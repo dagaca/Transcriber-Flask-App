@@ -6,3 +6,5 @@ SpeechRecognition==3.8.1
 moviepy==1.0.3
 flasgger==0.9.7.1
 ffmpeg==1.4
+python-dotenv==1.0.1
+pyflac==2.2.0
