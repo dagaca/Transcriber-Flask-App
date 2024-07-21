@@ -2,7 +2,7 @@ from flask import render_template, request, redirect, url_for, send_from_directo
 import os
 import uuid
 from app.config.logging_config import log_request_info, log_response_info
-from app.utils.audio_processing import process_video, allowed_file
+from app.utils.media_processing import process_media_file, is_valid_file
 from app.utils.file_handling import save_file, remove_file
 from app.utils.file_deletion import remove_old_files
 from app.utils.cleanup import cleanup_temp_files_only
@@ -99,14 +99,14 @@ def upload_file():
         flash('No selected file')
         return redirect(request.url)
     
-    if file and allowed_file(file.filename):
+    if file and is_valid_file(file.filename):
         if not os.path.exists(upload_folder):
             os.makedirs(upload_folder)
 
         video_filename = f"{uuid.uuid4()}.mp4"
         file_path = save_file(file, video_filename, upload_folder)
 
-        transcription = process_video(file_path, language)
+        transcription = process_media_file(file_path, language)
         
         unique_filename = f"{uuid.uuid4()}.docx"
         if not os.path.exists(transcripts_folder):
