@@ -64,40 +64,50 @@ This is a Flask-based web application that allows users to upload video files an
     Open your browser and go to `http://127.0.0.1:8082`.
 
 ## Project Structure
-Transcriber-Flask-App/
-├── app/
-│ ├── init.py # Initialize Flask app and register routes
-│ ├── routes.py # Application routes and request handlers
-│ ├── config/
-│ │ ├── config.py # Configuration settings loaded from .env
-│ │ └── logging_config.py # Logging configuration
-│ └── utils/
-│ ├── audio_processing.py # Functions for processing video and extracting audio
-│ ├── file_handling.py # Functions for saving and removing files
-│ ├── file_deletion.py # Function for removing old files
-│ └── cleanup.py # Function for cleaning up temporary files
-├── templates/
-│ ├── index.html # Main page template for file upload
-│ ├── success.html # Success page template with download link
-│ └── invalid_file.html # Error page template for invalid file uploads
-├── static/
-│ ├── css/
-│ │ ├── bootstrap-grid.css
-│ │ ├── bootstrap-grid.min.css
-│ │ ├── bootstrap-reboot.css
-│ │ ├── bootstrap-reboot.min.css
-│ │ ├── bootstrap-utilities.css
-│ │ ├── bootstrap-utilities.min.css
-│ │ ├── bootstrap.css
-│ │ ├── bootstrap.min.css
-│ │ └── styles.css # Custom styles
-│ └── js/
-│ └── bootstrap.bundle.min.js
-├── temp/ # Temporary storage for uploaded and processed files
-├── logs/ # Directory for log files
-├── .env # Environment variables
-├── requirements.txt # Python dependencies
-└── run.py # Entry point to run the Flask application
+
+### Root Directory
+- `.env`: Environment variables
+- `requirements.txt`: Python dependencies
+- `run.py`: Entry point to run the Flask application
+
+### app/
+- `__init__.py`: Initialize Flask app and register routes
+- `routes.py`: Application routes and request handlers
+
+#### app/config/
+- `config.py`: Configuration settings loaded from .env
+- `logging_config.py`: Logging configuration
+
+#### app/utils/
+- `audio_processing.py`: Functions for processing video and extracting audio
+- `file_handling.py`: Functions for saving and removing files
+- `file_deletion.py`: Function for removing old files
+- `cleanup.py`: Function for cleaning up temporary files
+
+### templates/
+- `index.html`: Main page template for file upload
+- `success.html`: Success page template with download link
+- `invalid_file.html`: Error page template for invalid file uploads
+
+### static/css/
+- `bootstrap-grid.css`
+- `bootstrap-grid.min.css`
+- `bootstrap-reboot.css`
+- `bootstrap-reboot.min.css`
+- `bootstrap-utilities.css`
+- `bootstrap-utilities.min.css`
+- `bootstrap.css`
+- `bootstrap.min.css`
+- `styles.css`: Custom styles
+
+### static/js/
+- `bootstrap.bundle.min.js`
+
+### temp/
+- Temporary storage for uploaded and processed files
+
+### logs/
+- Directory for log files
 
 ## Usage
 
