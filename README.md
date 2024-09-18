@@ -28,7 +28,7 @@ This is a Flask-based web application that allows users to upload video files an
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/Transcriber-Flask-App.git
+    git clone https://github.com/dagaca/Transcriber-Flask-App.git
     cd Transcriber-Flask-App
     ```
 
